@@ -6,6 +6,10 @@ from datetime import datetime
 import random
 from colorama import Fore
 
+from timedelta import Timedelta
+from langchain_ollama import OllamaLLM
+import json
+
 
 class MLTrader(Strategy):
     def initialize(self, cash_at_risk: float = 0.2, coin: str = "BTC"):

@@ -112,7 +112,7 @@ psycopg2-binary==2.9.10
 ptyprocess==0.7.0
 pure_eval==0.2.3
 pyarrow==20.0.0
-pyautogen==0.2.6
+ag2==0.2.6
 pycares==4.8.0
 pycodestyle==2.13.0
 pycparser==2.22
